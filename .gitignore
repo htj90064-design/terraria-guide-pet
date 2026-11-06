@@ -1,0 +1,29 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+
+# Local generation and backups
+work/
+outputs/
+dist/
+previous-version/
+*.log
+*.tmp
+*.bak
+
+# Tooling and OS files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/

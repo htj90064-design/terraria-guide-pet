@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "reviewer": "independent-final-visual-worker",
+  "reviewed_at": "2026-11-06T06:32:51.902651+00:00",
+  "atlas_sha256": "27df33d3730b655b98182721ac3312191e00d56549336689f8285fa07aecbf6f",
+  "findings": [
+    "All11 rows preserve the Guide identity: coarse orange-brown hair, original small white eye style, peach face, muted olive shirt, blue trousers, dark boots. No missing frames, hard clipping, overlapping slots, accidental body holes, new props, or detached effects were observed.",
+    "All nine standard actions still pass. Calm idle has micro-variation; directional runs face the correct screen side and alternate strides; wave raises/lowers an arm; jump has crouch-rise-apex-descent-crouch with real vertical displacement; failed slumps; waiting asks with an outward palm; running works with planted feet; review tilts/blinks.",
+    "Cross-state registration defect was corrected and verified in final WEBP: idle and dedicated neutral both have alpha bbox [52,46,139,201]. Look feet end at201, except the down pose at200. No residual20px shift remains.",
+    "All16 gaze directions have explicit pass or accepted warning verdicts in direction-semantics.json with separate horizontal and vertical evidence. Four cardinals are clear, and no wrong-quadrant pose or direction reversal appears in the normal-size clockwise sequence.",
+    "Continuity warnings at157.5->180 and337.5->000 were visually reviewed. The first transition narrows the front-facing torso/head into the bowed left profile; the second brings the raised left-facing face toward the up pose. These are noticeable pose changes, but not conspicuous global rescaling, broken silhouettes, or major registration jumps. Foot alignment remains stable.",
+    "Final validator reports ok:true with no errors/warnings. Chroma cleanup reports ok:true, alpha_preserved:true and zero remaining_chroma_fringe_pixels; these authoritative checks close chroma review."
+  ],
+  "accepted_warnings": [
+    "067.5 and112.5 have restrained vertical cues close to right-horizontal;247.5 has restrained downward pitch close to left-horizontal. The intended quadrants remain readable in the labeled ordered sequence.",
+    "045 is visually close to022.5;225 is close to202.5;337.5 is close to315. Angular spacing is therefore visually uneven, without quadrant errors or reversal.",
+    "157.5->180 and337.5->000 are the most noticeable pose-width/face changes, accepted as minor continuity changes after normal-size review.",
+    "Idle, failed and review remain deliberately subdued."
+  ],
+  "limitations": [
+    "Inspected every ordered decoded GIF frame and encoded duration; did not capture live Codex app playback or real-time GIF playback.",
+    "Independent labeled semantic review only: no blind key or blind votes were opened. Separate blind-validation/minor-resolution gate remains the parent responsibility."
+  ],
+  "evidence_files": [
+    "previews/animations.png",
+    "previews/directions.png",
+    "previews/look-around.gif",
+    "qa/validation.json",
+    "qa/chroma-cleanup.json",
+    "qa/direction-semantics.json",
+    "qa/look-continuity.json"
+  ],
+  "repair_rows": [],
+  "publication_note": "Selected final evidence exported for publication. Full local working files and intermediate images are not included."
+}

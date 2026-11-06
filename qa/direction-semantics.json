@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "reviewer": "independent-final-visual-worker",
+  "reviewed_at": "2026-11-06T06:32:51.902651+00:00",
+  "method": "Normal-size labeled direction sheet plus all 16 ordered decoded GIF frames at 220 ms each; no blind key or blind votes inspected.",
+  "geometry_status": "Final rebuilt atlas verified: dedicated neutral and idle share [52,46,139,201]; look feet are y=201 except down y=200. All16 poses preserved their direction semantics after the pure +20px registration correction.",
+  "directions": [
+    {
+      "degree": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "horizontal_evidence": "Face stays around head center; no dominant left/right head yaw is required for this cardinal.",
+      "vertical_evidence": "White eye block sits high beneath hair, nose and chin tip upward; forehead/hair recedes behind the raised face.",
+      "reason": "Upward pitch is clear at normal 192x208 cell size and differs from neutral."
+    },
+    {
+      "degree": "022.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "Face/nose projects toward screen-right relative to the hair center; eye block is in the right-facing surface.",
+      "vertical_evidence": "Nose tip is raised and the jaw is lifted, retaining the up-cardinal pitch.",
+      "reason": "Clear raised rightward head turn."
+    },
+    {
+      "degree": "045",
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "Nose and face remain on the screen-right side of the hair mass.",
+      "vertical_evidence": "High eye line, lifted nose and chin show upward pitch.",
+      "reason": "Correct quadrant; visually close to 022.5 so the angular interval is subtle."
+    },
+    {
+      "degree": "067.5",
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal_evidence": "Nose protrudes to screen-right; face surface and eye block are right of head center.",
+      "vertical_evidence": "Eye line and nose are slightly raised compared with the horizontal 090 pose.",
+      "reason": "Near-horizontal upward component is mild but remains consistent in the labeled clockwise sequence."
+    },
+    {
+      "degree": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "horizontal_evidence": "Nose tip visibly protrudes from the screen-right face edge, right of head center, and the white eye block sits on the right-facing surface.",
+      "vertical_evidence": "Eye/nose axis is approximately level; head is not pitched strongly up or down.",
+      "reason": "Unambiguous screen-right cardinal."
+    },
+    {
+      "degree": "112.5",
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "Face/nose continue to project screen-right of the hair center.",
+      "vertical_evidence": "Eye block and nose sit slightly lower relative to the fringe; chin begins to tuck compared with 090.",
+      "reason": "Downward component is subtle near the horizontal cardinal; intended quadrant remains readable in order."
+    },
+    {
+      "degree": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "Face is carried toward screen-right; nose extends past its right edge.",
+      "vertical_evidence": "Fringe lowers over the eye and chin tucks toward the collar as the head bows.",
+      "reason": "Clearer downward pitch while keeping rightward orientation."
+    },
+    {
+      "degree": "157.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal_evidence": "Nose/face remain toward screen-right of the head center, with right cheek surface prominent.",
+      "vertical_evidence": "Eye line and nose descend beneath a lowered fringe; face points down toward the upper chest.",
+      "reason": "Downward component dominates while rightward component remains present."
+    },
+    {
+      "degree": "180",
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "horizontal_evidence": "Face remains close to the center under the hair canopy, with only a slight resting left-facing asymmetry.",
+      "vertical_evidence": "Hair canopy covers the eye line, nose points below the fringe, and chin tucks toward the collar.",
+      "reason": "Unambiguous down cardinal; bowed head distinguishes it from horizontal/neutral."
+    },
+    {
+      "degree": "202.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_evidence": "Face/nose emerge on the screen-left side of the head mass.",
+      "vertical_evidence": "Hair lies low over the eyes and nose points down toward the left shoulder/collar.",
+      "reason": "Clear down-left combination."
+    },
+    {
+      "degree": "225",
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_evidence": "Left facial contour and nose point screen-left relative to head center.",
+      "vertical_evidence": "Eye line stays below the lowered fringe and chin remains tucked.",
+      "reason": "Correct quadrant; very close to 202.5, with a small angular change."
+    },
+    {
+      "degree": "247.5",
+      "verdict": "warning",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal_evidence": "Nose protrudes distinctly screen-left and eye surface follows the left-facing profile.",
+      "vertical_evidence": "Chin remains slightly tucked and eye/nose axis slightly lowered compared with 270.",
+      "reason": "Near-horizontal downward pitch is restrained but consistent with adjacent down-left poses."
+    },
+    {
+      "degree": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "horizontal_evidence": "Nose tip visibly projects from the screen-left face edge, left of the hair center; white eye block is on the left-facing surface.",
+      "vertical_evidence": "Head/eye line is approximately level, with no strong upward or downward pitch.",
+      "reason": "Unambiguous screen-left cardinal."
+    },
+    {
+      "degree": "292.5",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "Nose and face point to screen-left of the hair center.",
+      "vertical_evidence": "Head tips back, nose rises, and the jaw lifts away from the collar.",
+      "reason": "Clear leftward turn with rising pitch."
+    },
+    {
+      "degree": "315",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "Face remains at screen-left of head mass with nose aimed up-left.",
+      "vertical_evidence": "Nose/eye block rises along the tilted face; chin is lifted, exposing more lower face.",
+      "reason": "Clear upward-left orientation; torso remains upright."
+    },
+    {
+      "degree": "337.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal_evidence": "Nose remains slightly screen-left of the head center while the raised face trends back toward center.",
+      "vertical_evidence": "Strong raised chin and nose retain upward pitch toward 000.",
+      "reason": "Correct up-left quadrant; small change from 315 and a more noticeable wrap transition to 000."
+    }
+  ],
+  "warnings": [
+    "Some neighboring diagonal poses are visually similar; none shows a wrong quadrant or visible direction reversal."
+  ],
+  "blind_validation_status": "Final consensus passed all cardinal hard gates; intermediate warnings retained in direction-blind-validation.json.",
+  "atlas_sha256": "27df33d3730b655b98182721ac3312191e00d56549336689f8285fa07aecbf6f"
+}

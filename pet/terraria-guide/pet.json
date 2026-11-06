@@ -1,0 +1,7 @@
+{
+  "id": "terraria-guide",
+  "displayName": "泰拉瑞亚向导",
+  "description": "依据泰拉瑞亚官方向导精灵重做的粗像素宠物，含九组动作与十六个视线方向。",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}
